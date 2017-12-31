@@ -1,0 +1,188 @@
+header{
+width: 100%;
+display:flex;
+align-items: center;
+justify-content: center;
+margin-top: 0px;
+color: white;
+background-color: #9C27B0;
+line-height: 100px;
+font-size: 150%;
+
+}
+
+.wellcome{
+ 	background : url(../img/world.jpg)100% 100% no-repeat;
+ 	background-size: cover;
+ 	height: 500px;
+ 	text-align: center;
+ 	padding-top: 150px;
+ 	border: 2px solid #9C27B0;
+
+}
+
+.wellcome h1 {
+	font-size: 500%;
+	color: white;
+
+
+}
+
+.Persons img{
+	width: 170px;
+	height: 170px;
+}
+
+.Persons{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-size: 180%;
+}
+
+.person0 {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #d699ff; 
+	width: 620px;
+	height: 230px;
+	margin: 20px 10px;
+}
+
+.person0 p{
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+
+.person0 button {
+	width: 100px;
+	height: 50px;
+	background-image: linear-gradient(#830fa3,#d699ff);
+	border-radius: 20px;
+	align-self: flex-end;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+.person1 {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #d699ff; 
+	width: 620px;
+	height: 230px;
+	margin: 20px 10px;
+}
+
+.person1 button {
+	width: 100px;
+	height: 50px;
+	font-size: 25px;
+	background-image: linear-gradient(#830fa3,#d699ff);
+	border-radius: 20px;
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+
+.person1 p{
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+
+.person2 {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #d699ff; 
+	width: 620px;
+	height: 230px;
+	margin: 20px 10px;
+}
+
+.person2 button {
+	width: 100px;
+	height: 50px;
+	background-image: linear-gradient(#830fa3,#d699ff);
+	border-radius: 20px;
+	align-self: flex-end;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+.person2 p{
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+
+.person3 {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #d699ff; 
+	width: 620px;
+	height: 230px;
+	margin: 20px 10px;
+}
+
+.person3 button {
+	width: 100px;
+	height: 50px;
+	align-self: flex-end;
+	margin-bottom: 10px;
+	background-image: linear-gradient(#830fa3,#d699ff);
+	border-radius: 20px;
+	font-size: 25px;
+}
+
+.person3 p{
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+
+.Persons #heartmini{
+	align-self: flex-end;
+	width: 35px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.person4 {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #d699ff; 
+	width: 620px;
+	height: 230px;
+	margin: 20px 10px;
+}
+
+.person4 button {
+	width: 100px;
+	height: 50px;
+	font-size: 25px;
+	background-image: linear-gradient(#830fa3,#d699ff);
+	border-radius: 20px;
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+
+.person4 p{
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+
+footer{
+	display: flex;
+}
+footer p{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 250%;
+}
+footer div{
+	width: 100%;
+	display: inline-flex;
+}
